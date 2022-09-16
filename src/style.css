@@ -17,7 +17,7 @@
     scroll-behavior: smooth;
 }
 
---webkit-scrollbar {
+::-webkit-scrollbar {
     display: none;
 }
 
@@ -117,7 +117,7 @@ header button {
 
 .hero-section h1
 {
-    font-size: 50px;
+    font-size: 5vw;
     color: #fff;
     font-weight: 400;
     margin-bottom: 20px;
@@ -140,3 +140,64 @@ header button {
     color: #fff;
     border-color: var(--secondary-color);
 }
+
+/* About */
+
+.about-section
+{
+    background-color: var(--primary-variant-color);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20%;
+}
+
+.about-section h1 {
+    margin: 40px auto 20px 20px;
+    font-size: 2.5vw;
+    color: #000;
+    font-weight: 700;
+    font-size: 3vw;
+}
+
+.about-section .about-content {
+    display: grid;
+    grid-template-columns: 30vw 30vw; 
+    gap: 20px;
+    padding: 10px;
+    margin: 0 40px;
+}
+
+.about-content .about-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.about-items h3 {
+    font-size: 1.2vw;
+    width: 90%;
+    justify-content: start;
+}
+
+.about-items p {
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2vw;
+    margin: 10px;
+    height: 100%;
+}
+
+.about-items button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: var(--secondary-color);
+    color: #fff;
+    border-color: var(--secondary-color);
+    justify-content: end;
+}
+
