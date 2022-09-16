@@ -24,6 +24,8 @@
 /* Navbar */
 
 header {
+    position: fixed;
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -89,5 +91,52 @@ header button {
 #register {
     background-color: var(--secondary-color);
     color: rgb(255, 255, 255);
+    border-color: var(--secondary-color);
+}
+
+/* Hero */
+
+.hero-section
+{
+    background-image: url(https://cdn.pixabay.com/photo/2018/07/10/07/56/business-3528035_960_720.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: right;
+}
+
+.hero-text
+{
+    width: 50%;
+    margin: auto 60px;
+}
+
+.hero-section h1
+{
+    font-size: 50px;
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.hero-section p
+{
+    font-size: 20px;
+    color: #fff;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.hero-section button
+{
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: var(--secondary-color);
+    color: #fff;
     border-color: var(--secondary-color);
 }
