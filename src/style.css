@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap');
+
+
+/* declarate variable primary and secondary color */
+:root {
+    --primary-color: #5E17EB;
+    --secondary-color: #FF914D;
+    --primary-variant-color: #E4CCFF;
+    --secondary-variant-color: #FFD19C;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+
+--webkit-scrollbar {
+    display: none;
+}
+
+/* Navbar */
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
+
+header .logo {
+    font-weight: 400;
+    color: #000;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+
+header .logo img {
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+}
+
+header h1 {
+    height: 100%;
+}
+
+header .navbar {
+    height: 100%;
+    align-items: center;
+}
+
+header .menu {
+    height: 100%;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header li {
+    margin: 0 10px;
+}
+
+header a {
+    color: var(--secondary-color);
+}
+
+header button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#login {
+    background-color: rgb(255, 255, 255);
+    color: var(--secondary--color);
+    border-color: var(--secondary--color);
+}
+
+#register {
+    background-color: var(--secondary-color);
+    color: rgb(255, 255, 255);
+    border-color: var(--secondary-color);
+}
