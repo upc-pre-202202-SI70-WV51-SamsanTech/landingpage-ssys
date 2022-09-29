@@ -84,8 +84,8 @@ header button {
 
 #login {
     background-color: rgb(255, 255, 255);
-    color: var(--secondary--color);
-    border-color: var(--secondary--color);
+    color: #FF914D;
+    border-color: #FF914D;
 }
 
 #register {
@@ -106,7 +106,6 @@ header button {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: right;
 }
 
 .hero-text
